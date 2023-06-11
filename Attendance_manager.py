@@ -83,14 +83,7 @@ def subject():
      print(tabulate([table_subjects,['Maths 18MAT31',attendance_subj[0]],['DSA 18CS32',attendance_subj[1]],['ADE 18CS33',attendance_subj[2]],['CO 18CS34',attendance_subj[3]],['SE 18CS35',attendance_subj[4]],['DMS 18CS36',attendance_subj[5]],['CPC 18CPC39',attendance_subj[6]]],tablefmt="fancy_grid"))
      print("")
      
-     # sub_pdf=input(""" """)
-     # if sub_pdf=="y" or sub_pdf=='Y':
-     #      print()
-     # elif sub_pdf=='n' or sub_pdf=='N':
-     #      print()
-     # else:
-     #      print("")
-
+ 
 
 
 def labs():
