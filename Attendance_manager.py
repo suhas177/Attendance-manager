@@ -3,14 +3,10 @@
 
 # attendance manager
 
-# from ctypes import alignment
-# from tkinter import CENTER
-# from turtle import right
 from tabulate import tabulate
-# from prettytable import prettytable
-# from fpdf import FPDF
 
-# pdf = FPDF()
+
+
 
 
 no_of_subjects=["Transform Calculus, Fourier Series And Numerical Techniques 18MAT31 ","Data Structures and Applications 18CS32 ","Analog and Digital Electronics 18CS33 ","Computer Organization 18CS34 ","Software Engineering 18CS35 ","Discrete Mathematical Structures 18CS36 ","Constitution of India, Professional Ethics and Cyber Law 18CPC39 "]
@@ -115,23 +111,9 @@ def labs():
      table_data=[no_of_labs,attendance_labs]
      print("")
      print(tabulate([table_labs,['ADE lab 18CSL37',attendance_labs[0]],['DSA lab 18CSL38',attendance_labs[1]]],tablefmt="fancy_grid"))
-     # table=tabulate([table_labs,['ADE lab 18CSL37',attendance_labs[0]],['DSA lab 18CSL38',attendance_labs[1]]],tablefmt="fancy_grid")
+     
      print("")
-     # sub_pdf=input(""" """)
-     # if sub_pdf=="y" or sub_pdf=='Y':
-     #      name=input("")
-     #      usn=input("")
-     #      pdf.add_page()
-     #      pdf.set_font("Arial", size = 15)
-     #      pdf.cell(200,10,name,ln=1,align='c')
-     #      pdf.cell(200,10,usn,ln=2,align='c')
-     #      pdf.cell(table,ln=3,align='c')
-     #      pdf.output("subject attendance.pdf")
-
-     # elif sub_pdf=='n' or sub_pdf=='N':
-     #      print("")
-     # else:
-     #      print("")
+   
           
 
 def sub_and_lab():
